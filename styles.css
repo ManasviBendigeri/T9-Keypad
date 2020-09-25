@@ -1,0 +1,81 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Gotham Rounded, sans-serif;
+  font-weight: normal;
+}
+
+body{
+    padding-top:10vw;
+    padding-left: 35vw;
+    background: linear-gradient(to right, #ff1100, #fffb00);
+}
+
+.suggestions{cursor: pointer;} 
+
+#suggestions{
+  font-size: small;
+  width: 100px;
+  color: aliceblue;
+  word-wrap: break-word;
+  word-break: break-all;
+  border-color: #070707;
+  background: linear-gradient(to right, #070707, #626063);
+ 
+}
+#suggestions1{
+  font-size: small;
+  width: 100px;
+  color: aliceblue;
+  word-wrap: break-word;
+  word-break: break-all;
+  border-color: #070707;
+  background: linear-gradient(to right, #070707, #626063);
+}
+
+#suggestions2{
+  font-size: small;
+  width: 100px;
+  color: aliceblue;
+  word-wrap: break-word;
+  word-break: break-all;
+  border-color: #070707;
+  background: linear-gradient(to right, #070707, #626063);
+}
+
+#phone button {
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 30px;
+  height: 70px;
+  width: 100px;
+  border: 1px solid white;
+  outline: none;
+  background-color: rgba(255, 255, 255, .75);
+}
+
+#phone button:hover{
+  background-color:#ffc93c;
+}
+
+#phone button span {
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 50px;
+  display: block;
+  margin-top: 5px;
+  font-size: 10px;
+}
+#result {
+  position: relative;
+  bottom: 100px;
+  right: 10px;
+  width: 350px;
+  height: 60px;
+
+  border-width: 4px;
+  font-size: x-large;
+  color: aliceblue;
+  word-wrap: break-word;
+  word-break: break-all;
+  background-color: rgba(0, 0, 0, .75);
+}

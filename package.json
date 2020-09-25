@@ -1,0 +1,19 @@
+{
+  "name": "test5",
+  "version": "1.0.0",
+  "main": "T9.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "trie-search": "^1.2.11",
+    "type": "module",
+    "word-list-json": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
